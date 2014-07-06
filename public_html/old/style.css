@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #ffffff;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+div.containerbg {
+	padding: 0px;
+	width: 883.94px;
+	height: auto;
+	margin: 0px auto;
+	background-color: #F0F0F0;
+}
+div.containerbgleft {
+	padding: 0px;
+	width: 51.97px;
+	height: 919px;
+	float:left;
+	background-image: url(images/TFcisweb3_02.gif);
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+div.containerbgright {
+	padding: 0px;
+	width: 51.97px;
+	height: 919px;
+	float:left;
+	background-image: url(images/TFcisweb3_04.gif);
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+
+div.container {
+	width: 780px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	border-width: 0px;
+	background-color: #F0F0F0;
+}
+div.header {
+	font-family: Arial, Helvetica, sans-serif;
+	height: 200px;
+	text-align: left;
+	clear:left;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/TFcisweb3_03.gif);
+	border-width: 0px;
+}
+h1.header {
+	margin: 0px;
+	padding: 0px;
+}
+div.mainmenu {
+	height: 34px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/TFcisweb3_06.gif);
+	background-color: #F0F0F0;
+	background-repeat: no-repeat;
+	border-width: 0px;
+}
+ul {
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+a.mainmenu {
+	font-family: Arial, Helvetica, sans-serif;
+	float:left;
+	width:110px;
+	text-decoration:none;
+	color:#CCC;
+	background-color:#000;
+	text-align:center;
+	padding: 7px;
+	border-width: 0px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+}
+a.mainmenu:hover {
+	color:#D6D6D6;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+li.mainmenu {display:inline}
+div.content {
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+	margin: 0px;
+	background-color: #F0F0F0;
+	background-image: url(images/TFcisweb3_07.gif);
+	background-repeat: no-repeat;
+	border-width: 0px;
+	padding-top: 0.2em;
+	padding-right: 250px;
+	padding-bottom: 0.2em;
+	padding-left: 0.2em;
+	text-align: center;
+	text-decoration: none;
+}
+
+div.right
+{
+	float:right;
+	width:250px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F0F0F0;
+	background-image: url(images/TFcisweb3_08.gif);
+	background-repeat: no-repeat;
+	border-width: 0px;
+}
+
+div.footer {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #AAA;
+	margin: 0px;
+	padding: .2em;
+	font-size: .7em;
+	text-align: right;
+	border-top-width: 1px;
+	border-top-style: solid;
+	clear:both;
+}

@@ -1,0 +1,147 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	background-color: #ffffff;
+	}
+div.containerbg{
+	width:883.94px;
+	height:auto;
+	margin:0px auto;
+	background-color:#F0F0F0;
+	}
+div.containerbgleft{
+	width:51.97px;
+	height:919px;
+	float:left;
+	background-image:url(images/TFcisweb3_02.gif);
+	background-repeat:no-repeat;
+	}
+div.containerbgright{
+	width:51.97px;
+	height:919px;
+	float:left;
+	background-image:url(images/TFcisweb3_04.gif);
+	background-repeat:no-repeat;
+	}
+div.container{
+	width:780px;
+	float:left;
+	border-width:0px;
+	background-color:#F0F0F0;
+	}
+div.header{
+	font-family:Arial,Helvetica,sans-serif;
+	height:200px;
+	text-align:left;
+	clear:left;
+	background-image:url(images/TFcisweb3_03.gif);
+	border-width:0px;
+	}
+div.mainmenu{
+	height:34px;
+	background-image:url(images/TFcisweb3_06.gif);
+	background-repeat:no-repeat;
+	}
+ul{
+	width:100%;
+	list-style-type:none;
+	}
+div.mainmenu li{
+	height:34px;
+	width:160px;
+	text-align:center;
+	background-color:#000;
+	color:#CCC;
+	float:left;
+	position:relative;
+	line-height:34px;
+	}
+div.mainmenu li:hover{
+	background-color:#000;
+	}
+div.mainmenu li div{
+	position:absolute;
+	top:34px;
+	left:0px;
+	visibility:hidden;
+	}
+div.mainmenu li:hover div{
+	visibility:visible;
+	}
+div.mainmenu li:hover a{
+	width:160px;
+	}
+li div a{
+	height:34px;
+	width:40px;
+	display:block;
+	color:#CCC;
+	background-color:#000;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	line-height:34px;
+	font-family:Arial,Helvetica,sans-serif;
+transition:height 0.5s,width 5s,line-height 0.5s;
+-moz-transition:height 0.5s,width 0.5s,line-height 0.5s; /* Firefox 4 */
+-webkit-transition:height 0.5s,width 0.5s,line-height 0.5s; /* Safari and Chrome */
+-o-transition:height 0.5s,width 0.5s,line-height 0.5s; /* Opera */
+	}
+li div a:hover{
+	height:64px;
+	background-color:#000;
+	color:#D6D6D6;
+	line-height:64px;
+	}
+a{
+	text-decoration:none;
+	color:#666;
+	}
+p.time{
+	text-align:center;
+	}
+p.name{
+	text-align:center;
+	}
+hr{
+	height:10px;
+	background-color:#ccc;
+	}
+div.content{
+	font-family:Arial,Helvetica,sans-serif;
+	width:auto;
+	background-color:#F0F0F0;
+	background-image:url(images/TFcisweb3_07.gif);
+	background-repeat:no-repeat;
+	border-width:0px;
+	padding-top:1em;
+	padding-right:250px;
+	padding-bottom:0.2em;
+	padding-left:1em;
+	text-decoration:none;
+	}
+div.right{
+	float:right;
+	width:250px;
+	background-color:#F0F0F0;
+	background-image:url(images/TFcisweb3_08.gif);
+	background-repeat:no-repeat;
+	border-width:0px;
+	height:685px;
+	}
+div.footer{
+	font-family:Verdana,Geneva,sans-serif;
+	background-color:#AAA;
+	padding:.2em;
+	font-size:.7em;
+	text-align:left;
+	border-top-width:1px;
+	border-top-style:solid;
+	clear:both;
+	}
+div.t1{
+	font-size:4em;
+	
+	}
